@@ -23,6 +23,12 @@ The script works in DSM 7 and later.
 2. Save the download zip file to a folder on the Synology.
 3. Unzip the zip file.
 
+## Edit the script
+
+Replace "2001:db8:1::/64" and replace it with your network's IPv6 CDIR range.
+
+`cidr="2001:db8:1::/64"`
+
 ## How to run the script
 
 ### Run the script via SSH
