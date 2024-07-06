@@ -11,14 +11,18 @@
 #
 #------------------------------------------------------------
 
-# Replace "2001:db8:1::/64" in cidr with your network's cidr range
+# If you are using a scope global IPv6 address replace "fe80::1/64"
+# with your network's IPv6 CIDR range.
+# For example: cidr="2001:db8:1::/64"
 
-cidr="2001:db8:1::/64"
+# "fe80::1/64" is for local LAN access only.
+
+cidr="fe80::1/64"
 
 
 #------------------------------------------------------------
 
-scriptver="v1.0.1"
+scriptver="v1.0.2"
 script="Synology_ContainerManager_IPv6"
 repo="007revad/Synology_ContainerManager_IPv6"
 

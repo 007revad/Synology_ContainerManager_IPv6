@@ -1,2 +1,5 @@
+v1.0.2
+- Changed to use `cidr="fe80::1/64"` so people don't need to change it unless they're using a scope global IPv6 address.
+
 v1.0.1
   -  First release.

@@ -23,11 +23,15 @@ The script works in DSM 7 and later.
 2. Save the download zip file to a folder on the Synology.
 3. Unzip the zip file.
 
-## Edit the script
+## Edit the script if needed
 
-Replace "2001:db8:1::/64" and replace it with your network's IPv6 CDIR range.
+If your Synology's IPv6 IP address starts with "fe80" you don't need to edit anything.
 
-`cidr="2001:db8:1::/64"`
+<p align="left"><img src="/images/cidr.png"></p>
+
+If you are using a scope global IPv6 address replace "fe80::1/64" in the script with your network's IPv6 CIDR range. 
+
+For example: `cidr="2001:db8:1::/64"`
 
 ## How to run the script
 
