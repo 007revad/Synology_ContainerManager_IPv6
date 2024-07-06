@@ -76,6 +76,9 @@
 
 - **<a href="https://github.com/007revad/Synology_Cleanup_Coredumps">Synology_Cleanup_Coredumps</a>**
   - Cleanup memory core dumps from crashed processes.
+
+- **<a href="https://github.com/007revad/Synology_DSM_Telnet_Password">Synology_DSM_Telnet_Password</a>**
+  - Synology DSM Recovery Telnet Password of the Day generator.
  
 - **<a href="https://github.com/007revad/Docker_Autocompose">Docker_Autocompose</a>**
   - Create .yml files from your docker existing containers.
