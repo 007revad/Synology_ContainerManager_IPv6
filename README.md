@@ -11,7 +11,7 @@
 
 ### Description
 
-Enable IPv6 for Container Manager's bridge network
+Enable IPv6 for the bridge network in Container Manager or Docker
 
 The script works in DSM 7 and later.
 
