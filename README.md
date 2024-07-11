@@ -52,4 +52,8 @@ sudo -s /volume1/scripts/syno_containermanager_ipv6.sh
 
 See <a href=how_to_schedule.md/>How to schedule a script in Synology Task Scheduler</a>
 
+## Screenshots
+
+<p align="left"><img src="/images/screenshot.png"></p>
+
 <br>
