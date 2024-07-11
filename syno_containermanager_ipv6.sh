@@ -298,7 +298,7 @@ elif [[ $Docker == "Docker" ]]; then
     /usr/syno/bin/synopkg start Docker >/dev/null
 fi
 
-echo -e "Finished\n"
+echo -e "\nFinished\n"
 
 exit
 
