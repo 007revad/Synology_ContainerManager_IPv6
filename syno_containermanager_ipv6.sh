@@ -31,7 +31,7 @@ cidr="fe80::1/64"
 
 #-----------------------------------------------------------------------
 
-scriptver="v2.0.4"
+scriptver="v2.0.5"
 script="Synology_ContainerManager_IPv6"
 repo="007revad/Synology_ContainerManager_IPv6"
 
@@ -62,11 +62,11 @@ if [[ $( whoami ) != "root" ]]; then
 fi
 
 # Check script is running in DSM 7.2 or later
-buildnumber=$(/usr/syno/bin/synogetkeyvalue /etc.defaults/VERSION buildnumber)
-if [[ $buildnumber -lt "64555" ]]; then
-    echo -e "\n${Error}ERROR${Off} This script only works for DSM 7.2 and later!\n"
-    exit 2
-fi
+#buildnumber=$(/usr/syno/bin/synogetkeyvalue /etc.defaults/VERSION buildnumber)
+#if [[ $buildnumber -lt "64555" ]]; then
+#    echo -e "\n${Error}ERROR${Off} This script only works for DSM 7.2 and later!\n"
+#    exit 2
+#fi
 
 
 # Check Container Manager is installed
